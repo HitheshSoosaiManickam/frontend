@@ -22,8 +22,8 @@ function AddProducts(props) {
     return (
         <>
             <div className="w-full max-w-lg mx-auto mt-5 mb-5">
-                <h3 className="text-black text-center font-bold text-xl mb-4">Add New Product Details</h3>
-                <Link to="/" className="text-blue-500 hover:underline">View products</Link>
+                <h3 className="text-black text-center font-bold text-xl mb-4">Add New Students Details</h3>
+                <Link to="/" className="text-blue-500 hover:underline">View Students details</Link>
                 <form onSubmit={handleSubmit} className="bg-white p-5 rounded shadow-md">
                     <div className="mb-4">
                         <label className="block font-semibold">Student Name</label>
