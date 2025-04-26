@@ -38,18 +38,18 @@ function EditProduct(props) {
 
     return (
         <div className="w-full max-w-lg mx-auto mt-10 p-6 bg-white shadow-lg rounded-lg">
-            <h3 className="text-xl font-semibold text-center text-blue-600 mb-4">Update Attendance Details</h3>
+            <h3 className="text-xl font-semibold text-center text-blue-600 mb-4">Update Stock Details</h3>
             <Link to="/" className="text-blue-500 hover:underline mb-4 inline-block">&larr; Back</Link>
             <form onSubmit={handleSubmit} className="space-y-4">
                 <div>
-                    <label className="block font-medium mb-1">Student Name</label>
+                    <label className="block font-medium mb-1">Fuel Type</label>
                     <input type="text" value={name} required
                         onChange={(e) => setName(e.target.value)}
                         className="w-full px-4 py-2 border rounded focus:ring-2 focus:ring-blue-400 outline-none" />
                 </div>
 
                 <div>
-                    <label className="block font-medium mb-1">Reg. No.</label>
+                    <label className="block font-medium mb-1">Litres</label>
                     <input type="number" value={quantity} required
                         onChange={(e) => setQuantity(e.target.value)}
                         className="w-full px-4 py-2 border rounded focus:ring-2 focus:ring-blue-400 outline-none" />

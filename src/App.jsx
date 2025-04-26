@@ -52,7 +52,7 @@ function App() {
             </BrowserRouter>
 
         
-            {/* <h1 className='text-red-500'>Welcome to Electricity Board Management System!</h1>
+            {/* <h1 className='text-red-500'>Welcome to Fuel Stock Management System!</h1>
             <RegisterForm /> */}
         </>
     );

@@ -37,16 +37,16 @@ function Dashboard() {
     return (
         <div  className="w-full flex justify-center">
             <div >
-                <h1 className="text-black text-center font-bold text-xl mb-4">Attendance Details</h1>
+                <h1 className="text-black text-center font-bold text-xl mb-4">Fule Stock Details</h1>
                 <table className="border border-gray-400 w-[100%] mx-auto mt-8">
                 <caption className="text-lg font-semibold my-2">
-                    <Link to="/addproducts" className="text-blue-500 underline">Add New Attendance</Link>
+                    <Link to="/addproducts" className="text-blue-500 underline">Add New Fuel Stock</Link>
                 </caption>
                 <thead>
                     <tr className="bg-green-400 border border-gray-400 font-bold">
                         <th className="border border-gray-400 px-3 py-3">Sl.No</th>
-                        <th className="border border-gray-400 px-3 py-3">Name</th>
-                        <th className="border border-gray-400 px-3 py-3">Reg. No.</th>
+                        <th className="border border-gray-400 px-3 py-3">Fuel Type</th>
+                        <th className="border border-gray-400 px-3 py-3">Litres</th>
                         <th className="border border-gray-400 px-3 py-3">Status</th>
                         <th colSpan={2} className="border border-gray-400 px-3 py-3">Actions</th>
                     </tr>
